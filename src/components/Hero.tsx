@@ -1,3 +1,6 @@
+import Lottie, { LottieRefCurrentProps } from "lottie-react";
+import cactusAnimation from "../assets/cactus.json";
+
 const Hero = () => {
   return (
     <div className="mx-auto container p-6 lg:flex lg:items-center lg:justify-between">
@@ -6,7 +9,7 @@ const Hero = () => {
         <span className="block text-amber-500">With minimum effort.</span>
       </h2>
       <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-        IMAGE
+        <Lottie animationData={cactusAnimation} loop={false} />
       </div>
     </div>
   );
