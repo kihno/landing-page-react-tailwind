@@ -9,7 +9,7 @@ const Hero = () => {
         <span className="block text-amber-500">With minimum effort.</span>
       </h2>
       <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-        <Lottie animationData={cactusAnimation} loop={false} />
+        <Lottie animationData={cactusAnimation} />
       </div>
     </div>
   );
