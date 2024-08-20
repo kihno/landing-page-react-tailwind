@@ -1,6 +1,6 @@
 const Features = () => {
   return (
-    <div className="container mx-auto bg-white py-12 sm:py-16 lg:py-20">
+    <section className="container mx-auto bg-white py-12 sm:py-16 lg:py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="sm:text-center">
           <h2 className=" text-lg font-semibold leading-8 text-amber-600">Features</h2>
@@ -52,7 +52,7 @@ const Features = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
