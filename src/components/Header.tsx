@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <div className="container mx-auto p-6">
       <div className="w-full flex items-center justify-between">
-        <a className="flex items-center text-gray-900 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+        <a className="flex items-center text-gray-900 dark:text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
           Cactus
         </a>
         <div className="flex w-1/2 justify-end">

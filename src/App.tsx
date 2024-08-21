@@ -10,7 +10,7 @@ function App() {
 
 
   return (
-    <main className="bg-gray-50">
+    <main className="bg-gray-50 dark:bg-gray-900">
       <Header />
       <Hero />
       <Features />
